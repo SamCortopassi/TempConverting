@@ -11,6 +11,16 @@ import UIKit
 class ConversionViewController: UIViewController {
     
     @IBOutlet var celsiusLabel: UILabel!
+    var fahrenheitValue: Measurement<UnitTemperature>?
+    
+    var celsiusValue: Measurement<UnitTemperature>? {
+        if let fahrenheitValue = fahrenheitValue {
+            return fahrenheitValue.converted(to: .celsius)
+        } else {
+            return nil
+        }
+    }
+    
     @IBOutlet var textField: UITextField!
     
     @IBAction func fahrenheitFieldEditingChanged(_ textField: UITextField) {
