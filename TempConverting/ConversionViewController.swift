@@ -49,6 +49,12 @@ class ConversionViewController: UIViewController {
     
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        updateCelsiusLabel()
+    }
+    
     @IBAction func dismissKeyboard(_ sender: UITapGestureRecognizer) {
         textField.resignFirstResponder()
     }
