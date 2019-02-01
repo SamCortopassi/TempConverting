@@ -75,6 +75,7 @@ extension ConversionViewController: UITextFieldDelegate {
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         let existingTextHasDecimalSeparator = textField.text?.range(of: ".")
         let replacementTextHasDecimalSeparator = string.range(of: ".")
+//use NSCharacterSet to disallow letters
         
         if existingTextHasDecimalSeparator != nil,
             replacementTextHasDecimalSeparator != nil {
