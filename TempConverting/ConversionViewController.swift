@@ -73,7 +73,7 @@ class ConversionViewController: UIViewController {
         let date = Date()
         let hour = Calendar.current.component(.hour, from: date)
         
-        if hour > 19 || hour < 6 {
+        if hour > 13 || hour < 14 {
             self.view.backgroundColor = UIColor.lightGray
         }
 
