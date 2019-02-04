@@ -91,11 +91,11 @@
             </objects>
             <point key="canvasLocation" x="71" y="108"/>
         </scene>
-        <!--Item-->
+        <!--Map-->
         <scene sceneID="P1Y-G8-tML">
             <objects>
                 <viewController id="He8-6Y-ptj" customClass="MapViewController" customModule="TempConverting" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="yoF-j9-DxQ"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="yoF-j9-DxQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="20E-mi-rJp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -123,5 +123,6 @@
     </scenes>
     <resources>
         <image name="ConvertIcon" width="48" height="32"/>
+        <image name="MapIcon" width="48" height="32"/>
     </resources>
 </document>
