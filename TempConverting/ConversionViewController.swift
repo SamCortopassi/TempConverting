@@ -62,11 +62,24 @@ class ConversionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         print("ConversionViewController loaded its view.")
         
         updateCelsiusLabel()
     }
+    
+// dark at 6pm
+    override func viewWillAppear(_ animated: Bool) {
+        let date = Date()
+        let hour = Calendar.current.component(.hour, from: date)
+        
+        if hour > 19 || hour < 6 {
+            self.view.backgroundColor = UIColor.lightGray
+        }
+
+    }
+    
+    
     
     @IBAction func dismissKeyboard(_ sender: UITapGestureRecognizer) {
         textField.resignFirstResponder()
