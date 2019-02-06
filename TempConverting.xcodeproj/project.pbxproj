@@ -14,6 +14,7 @@
 		660084EA22026A0300203894 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660084E922026A0300203894 /* ConversionViewController.swift */; };
 		660084ED2204FEDB00203894 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 660084EC2204FEDB00203894 /* MapKit.framework */; };
 		660084EF2205164000203894 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660084EE2205164000203894 /* MapViewController.swift */; };
+		660084F1220B519200203894 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660084F0220B519200203894 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		660084E922026A0300203894 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		660084EC2204FEDB00203894 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		660084EE2205164000203894 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		660084F0220B519200203894 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				660084E922026A0300203894 /* ConversionViewController.swift */,
 				660084D72202341000203894 /* AppDelegate.swift */,
 				660084DB2202341000203894 /* Main.storyboard */,
+				660084F0220B519200203894 /* WebViewController.swift */,
 				660084EE2205164000203894 /* MapViewController.swift */,
 				660084DE2202341100203894 /* Assets.xcassets */,
 				660084E02202341100203894 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				660084EA22026A0300203894 /* ConversionViewController.swift in Sources */,
 				660084EF2205164000203894 /* MapViewController.swift in Sources */,
 				660084D82202341000203894 /* AppDelegate.swift in Sources */,
+				660084F1220B519200203894 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TempConverting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TempConverting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
